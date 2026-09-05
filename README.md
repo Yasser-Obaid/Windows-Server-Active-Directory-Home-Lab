@@ -28,6 +28,7 @@ The main objective was not only to configure the environment, but also to troubl
 
 # 🏗️ Lab Architecture
 
+```
 +---------------------------------+
 
 |         Windows Server          |
@@ -39,3 +40,4 @@ The main objective was not only to configure the environment, but also to troubl
 |  Group Policy                   |
 |  File Services                  |
 +---------------------------------+
+```
