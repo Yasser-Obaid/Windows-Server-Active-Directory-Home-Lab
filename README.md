@@ -30,3 +30,11 @@ The main objective was not only to configure the environment, but also to troubl
 
 ```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ 
 ```
+
+# Core Environment
+
+
+| Component | Configuration |
+| :--- | :--- |
+| Server OS | Windows Server 2022 |
+| Client OS | Windows 10 Pro |
