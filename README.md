@@ -182,9 +182,161 @@ Group Policy ↓ Computer Configuration ↓ Software Settings ↓ Software Insta
 ```
 The deployment was tested on the domain client after restarting the computer.
 
+# 🌐 DNS Configuration & Troubleshooting
 
+DNS was an important component of the lab because Active Directory relies heavily on DNS for domain services and locating the Domain Controller.
 
+### Practiced
+* DNS zone verification
+* lab.local Forward Lookup Zone
+* Domain name resolution
+* Domain Controller name resolution
+* nslookup
+* DNS troubleshooting
 
+Example:
 
+nslookup DC01.lab.local
 
+The client successfully resolved the Domain Controller through DNS.
 
+# 📡 DHCP Configuration & Troubleshooting
+
+Windows Server DHCP was configured to automatically provide network configuration to clients.
+
+### Practiced
+* DHCP installation
+* DHCP authorization
+* Scope configuration
+* IP address assignment
+* DHCP client testing
+* DHCP renewal
+* DHCP troubleshooting
+
+One of the real troubleshooting scenarios involved clients receiving:
+
+169.254.x.x
+
+This APIPA address indicated that the client was not receiving a valid DHCP lease.
+
+# 🔗 Domain Join
+
+The Windows 10 Pro client was successfully joined to:
+
+lab.local
+
+The final authentication flow was:
+```
+Windows 11 Pro │ ▼ Network Connectivity │ ▼ DNS │ ▼ Domain Controller │ ▼ Active Directory │ ▼ Domain User Authentication
+```
+
+The client was successfully authenticated using a domain user account.
+
+# 🧪 Troubleshooting Scenarios
+
+One of the most valuable parts of the project was troubleshooting real problems instead of only following configuration steps.
+
+###Issues Encountered
+* Virtual machines stopping unexpectedly
+* Host resource / VM execution problems
+* DHCP clients receiving 169.254.x.x APIPA addresses
+* DHCP renewal failures
+* Ping failures between network interfaces
+* Firewall blocking ICMP traffic
+* Connectivity problems between physical and virtual network environments
+* Domain Join authentication errors
+* Domain Controller connectivity problems
+* Group Policy communication failures
+
+These issues were investigated using tools such as:
+
+ipconfig
+ping
+nslookup
+nltest
+gpupdate /force
+
+along with Windows administrative tools and network adapter configuration.
+
+# 🔎 Domain Connectivity Verification
+
+The final environment was tested using:
+
+nltest /dsgetdc:lab.local
+
+and:
+
+nltest /sc_verify:lab.local
+
+These tests were used to verify that the client could locate the Domain Controller and that the domain secure channel was functioning correctly.
+
+DNS resolution was also tested using:
+
+nslookup DC01.lab.local
+
+# 💾 Backup & Recovery Fundamentals
+
+The project also included basic backup and recovery concepts to understand how Windows infrastructure should be protected against configuration or system failures.
+
+The focus was on understanding:
+
+* Backup concepts
+* Recovery planning
+* System availability
+* Importance of infrastructure documentation
+* Recovery considerations for Windows Server environments
+
+# 🧠 Key Lessons Learned
+
+This project strengthened my understanding of how enterprise IT infrastructure components work together.
+
+### 1. DNS is critical for Active Directory
+
+Active Directory is highly dependent on DNS for locating domain services and Domain Controllers.
+
+### 2. DHCP problems can look like network problems
+
+An incorrectly configured DHCP environment can result in APIPA addresses and loss of connectivity.
+
+### 3. Troubleshooting should be systematic
+
+Instead of changing random settings, I learned to isolate the problem by checking:
+
+IP Configuration
+      ↓
+Network Connectivity
+      ↓
+DNS Resolution
+      ↓
+Domain Controller Connectivity
+      ↓
+Authentication
+      ↓
+Group Policy
+
+### 4. Permissions should follow Least Privilege
+
+Users should receive only the access required to perform their responsibilities.
+
+### 5. Understanding the cause is more important than simply fixing the error
+
+The project helped me develop a troubleshooting mindset based on eliminating possible causes one by one.
+
+# 📸 Screenshots
+Screenshots documenting the lab configuration will be organized in the following directories:
+
+screenshots/
+│
+├── active-directory/
+├── dns/
+├── dhcp/
+├── group-policy/
+├── file-server/
+└── troubleshooting/
+
+These screenshots demonstrate the actual configuration and successful testing of the environment.
+
+# 📂 Project Structure
+```
+Windows-Server-Active-Directory-Home-Lab/ │ ├── README.md │ ├── docs/ │ ├── network-diagram.png │ ├── lab-overview.md │ └── troubleshooting.md │ ├── screenshots/ │ ├── active-directory/ │ ├── dns/ │ ├── dhcp/ │ ├── group-policy/ │ ├── file-server/ │ └── troubleshooting/ │ └── .gitignore
+```
