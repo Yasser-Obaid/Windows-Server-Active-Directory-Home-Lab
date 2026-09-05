@@ -48,6 +48,17 @@ The main objective was not only to configure the environment, but also to troubl
 | Authentication | Active Directory |
 | Network | VirtualBox + Ethernet connectivity |
 	
-	
+IP addresses shown above are from the lab environment and are used for documentation purposes only.
+
+# 🔧 Technologies & Tools
+* Windows Server 2022
+* Windows 11 Pro
+
+  # Infrastructure Services
+  * Active Directory Domain Services (AD DS)
+* DNS
+* DHCP
+* Group Policy
+* Windows File Services
 	
 
