@@ -53,8 +53,8 @@ IP addresses shown above are from the lab environment and are used for documenta
 
 # 🔧 Technologies & Tools
 
-* Windows Server 2022
-* Windows 11 Pro
+  * Windows Server 2022
+  * Windows 11 Pro
 
   # Infrastructure Services
   * Active Directory Domain Services (AD DS)
