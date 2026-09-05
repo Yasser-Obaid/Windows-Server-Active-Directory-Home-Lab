@@ -95,7 +95,7 @@ The lab started by installing and configuring Windows Server as the central infr
 
 The server was configured as a Domain Controller and became the main authentication and network services server for the lab.
 
-  # Implemented
+  ### Implemented
   * Installed Windows Server
   * Configured server networking
   * Installed Active Directory Domain Services
@@ -110,7 +110,7 @@ The server was configured as a Domain Controller and became the main authenticat
 
 The lab.local Active Directory environment was structured to simulate a basic organizational environment.
 
-# Implemented
+### Implemented
 * Created Active Directory domain
 * Created Organizational Units
 * Created user accounts
@@ -119,7 +119,7 @@ The lab.local Active Directory environment was structured to simulate a basic or
 * Tested domain authentication
 * Tested standard domain-user login
   
-# Example Structure
+### Example Structure
 ```
 
 lab.local │ ├── Builtin ├── Computers ├── Domain Controllers ├── Users ├── ForeignSecurityPrincipals ├── Managed Service Accounts │ └── IT │ └── IT-Users
@@ -143,6 +143,44 @@ The lab also included testing situations where Group Policy could not communicat
 
 # 🔑 Password & Account Security
 The environment was used to practice common Active Directory account-management tasks.
+
+### Practiced
+* Password policy configuration
+* Password reset
+* Account lockout
+* Unlocking accounts
+* Testing failed login scenarios
+* Standard User vs Administrator
+* Least Privilege principles
+
+The goal was to understand how an IT Support technician would handle common user-account incidents in a domain environment.
+
+# 📁 File Server & Permissions
+
+A file-sharing environment was configured to practice Windows access control.
+
+### Implemented
+* Created shared folders
+* Configured NTFS permissions
+* Configured Share permissions
+* Tested user access
+* Tested restricted access
+* Applied least-privilege principles
+
+### Permission Model
+```
+User │ ▼ Security Group │ ▼ Share Permissions │ ▼ NTFS Permissions │ ▼ Effective Access
+```
+This provided practical experience with the difference between Share Permissions and NTFS Permissions.
+
+# 📦 Software Deployment
+Software deployment through Group Policy was also practiced.
+
+A Windows Installer package (.msi) was deployed using:
+```
+Group Policy ↓ Computer Configuration ↓ Software Settings ↓ Software Installation ↓ Assigned MSI Package
+```
+The deployment was tested on the domain client after restarting the computer.
 
 
 
