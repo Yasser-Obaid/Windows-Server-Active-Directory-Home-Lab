@@ -28,16 +28,5 @@ The main objective was not only to configure the environment, but also to troubl
 
 # 🏗️ Lab Architecture
 
-```
-+---------------------------------+
-
-|         Windows Server          |
-|              DC01               |
-|                                 |
-|  Active Directory               |
-|  DNS                            |
-|  DHCP                           |
-|  Group Policy                   |
-|  File Services                  |
-+---------------------------------+
+```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ │ │ Domain: lab.local │ ┌────────────▼────────────┐ │ Windows 10 Pro │ │ Client │ │ │ │ Domain Joined │ └──────────────────────────┘
 ```
