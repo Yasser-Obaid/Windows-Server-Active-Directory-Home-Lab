@@ -32,7 +32,7 @@ The main objective was not only to configure the environment, but also to troubl
 ```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ 
 ```
 
-	# Core Environment
+# Core Environment
 
 
 | Component | Configuration |
@@ -108,7 +108,16 @@ The server was configured as a Domain Controller and became the main authenticat
 
 # 👤 Active Directory
 
+The lab.local Active Directory environment was structured to simulate a basic organizational environment.
 
+# Implemented
+* Created Active Directory domain
+* Created Organizational Units
+* Created user accounts
+* Created security groups
+* Added users to groups
+* Tested domain authentication
+* Tested standard domain-user login
 
 
 
