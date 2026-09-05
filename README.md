@@ -7,7 +7,8 @@ The project was built from scratch in a virtualized environment using VirtualBox
 # 📌 Project Overview
 This project was created to develop practical skills in:
 
-	* Windows Server Administration
+
+* Windows Server Administration
 * Active Directory Domain Services (AD DS)
 * Domain Controller Management
 * DNS Administration
