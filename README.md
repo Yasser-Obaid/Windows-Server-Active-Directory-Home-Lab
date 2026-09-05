@@ -32,7 +32,7 @@ The main objective was not only to configure the environment, but also to troubl
 ```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ 
 ```
 
-  # Core Environment
+	# Core Environment
 
 
 | Component | Configuration |
