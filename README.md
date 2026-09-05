@@ -62,4 +62,56 @@ IP addresses shown above are from the lab environment and are used for documenta
   * DHCP
   * Group Policy
   * Windows File Services
+ 
+  # Networking
+  * TCP/IP
+  * IP Addressing
+  * DHCP
+  * DNS
+  * NAT
+  * Internal Network
+  * Host-Only Networking
+  * Bridged Networking
+  * Ethernet
+ 
+  # Virtualization
+  * Oracle VirtualBox
+ 
+  # Troubleshooting Tools
+  * ipconfig
+  * ping
+  * nslookup
+  * gpupdate
+  * nltest
+  * Windows Event Viewer
+  * Server Manager
+  * DNS Manager
+  * DHCP Manager
+  * Active Directory Users and Computers
+ 
+# 🖥️ Windows Server Configuration
+
+The lab started by installing and configuring Windows Server as the central infrastructure server.
+
+The server was configured as a Domain Controller and became the main authentication and network services server for the lab.
+
+  # Implemented
+  * Installed Windows Server
+  * Configured server networking
+  * Installed Active Directory Domain Services
+  * Promoted the server to a Domain Controller
+  * Created the lab.local domain
+  * Configured DNS
+  * Configured DHCP
+  * Verified domain services
+  * Created and managed domain objects
+
+# 👤 Active Directory
+
+
+
+
+
+
+
 
