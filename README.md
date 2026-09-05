@@ -323,16 +323,15 @@ Users should receive only the access required to perform their responsibilities.
 The project helped me develop a troubleshooting mindset based on eliminating possible causes one by one.
 
 # 📸 Screenshots
-Screenshots documenting the lab configuration will be organized in the following directories:
 
-screenshots/
-│
-├── active-directory/
-├── dns/
-├── dhcp/
-├── group-policy/
-├── file-server/
-└── troubleshooting/
+Screenshots documenting the lab configuration are organized into the following categories:
+
+- **Active Directory** — Users, Groups, OUs, and domain configuration
+- **DNS** — DNS zones and name resolution
+- **DHCP** — DHCP configuration and IP address assignment
+- **Group Policy** — GPO configuration and policy testing
+- **File Server** — Shared folders and permissions
+- **Troubleshooting** — Network, DNS, DHCP, domain connectivity, and troubleshooting tests
 
 These screenshots demonstrate the actual configuration and successful testing of the environment.
 
