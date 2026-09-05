@@ -37,4 +37,17 @@ The main objective was not only to configure the environment, but also to troubl
 | Component | Configuration |
 | :--- | :--- |
 | Server OS | Windows Server 2022 |
-| Client OS | Windows 10 Pro |
+| Client OS | Windows 11 Pro |
+| Virtualization	| Oracle VirtualBox |
+| Active Directory Domain	| lab.local |
+| Domain Controller	| DC01 |
+| Server IP	| 192.168.20.10 |
+| Client IP	| 192.168.20.100 |
+| DNS | Windows Server / Domain Controller |
+| DHCP | Windows Server DHCP |
+| Authentication | Active Directory |
+| Network | VirtualBox + Ethernet connectivity |
+	
+	
+	
+
