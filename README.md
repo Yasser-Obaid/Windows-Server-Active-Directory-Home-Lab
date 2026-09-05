@@ -4,7 +4,7 @@ A hands-on IT Infrastructure and Windows Server administration lab built to simu
 
 The project was built from scratch in a virtualized environment using VirtualBox, with a Windows client connected to the Active Directory domain.
 
-# Project Overview
+# 📌 Project Overview
 This project was created to develop practical skills in:
 
 * Windows Server Administration
@@ -25,3 +25,5 @@ This project was created to develop practical skills in:
 * Backup and Recovery Fundamentals
 
 The main objective was not only to configure the environment, but also to troubleshoot problems that occurred during implementation and understand how the different infrastructure services interact.
+
+# 🏗️ Lab Architecture
