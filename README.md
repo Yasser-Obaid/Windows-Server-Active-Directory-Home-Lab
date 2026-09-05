@@ -32,7 +32,7 @@ The main objective was not only to configure the environment, but also to troubl
 ```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ 
 ```
 
-# Core Environment
+### Core Environment
 
 
 | Component | Configuration |
@@ -56,14 +56,14 @@ IP addresses shown above are from the lab environment and are used for documenta
   * Windows Server 2022
   * Windows 11 Pro
 
-  # Infrastructure Services
+  ### Infrastructure Services
   * Active Directory Domain Services (AD DS)
   * DNS
   * DHCP
   * Group Policy
   * Windows File Services
  
-  # Networking
+  ### Networking
   * TCP/IP
   * IP Addressing
   * DHCP
@@ -74,10 +74,10 @@ IP addresses shown above are from the lab environment and are used for documenta
   * Bridged Networking
   * Ethernet
  
-  # Virtualization
+  ### Virtualization
   * Oracle VirtualBox
  
-  # Troubleshooting Tools
+  ### Troubleshooting Tools
   * ipconfig
   * ping
   * nslookup
