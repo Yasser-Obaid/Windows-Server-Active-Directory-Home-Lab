@@ -8,7 +8,7 @@ The project was built from scratch in a virtualized environment using VirtualBox
 This project was created to develop practical skills in:
 
 
-  * Windows Server Administration
+* Windows Server Administration
 * Active Directory Domain Services (AD DS)
 * Domain Controller Management
 * DNS Administration
@@ -32,7 +32,7 @@ The main objective was not only to configure the environment, but also to troubl
 ```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ 
 ```
 
-# Core Environment
+  # Core Environment
 
 
 | Component | Configuration |
