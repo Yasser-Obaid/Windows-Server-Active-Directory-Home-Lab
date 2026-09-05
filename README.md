@@ -340,3 +340,63 @@ These screenshots demonstrate the actual configuration and successful testing of
 ```
 Windows-Server-Active-Directory-Home-Lab/ │ ├── README.md │ ├── docs/ │ ├── network-diagram.png │ ├── lab-overview.md │ └── troubleshooting.md │ ├── screenshots/ │ ├── active-directory/ │ ├── dns/ │ ├── dhcp/ │ ├── group-policy/ │ ├── file-server/ │ └── troubleshooting/ │ └── .gitignore
 ```
+
+# 🎯 Project Goals
+
+The main goals of this project were to:
+
+* Build a realistic Windows infrastructure environment
+* Gain hands-on Active Directory experience
+* Practice Windows Server administration
+* Understand DNS and DHCP dependencies
+* Practice centralized administration using Group Policy
+* Understand Windows permissions
+* Develop practical troubleshooting skills
+* Create documented infrastructure experience suitable for an IT Support / Infrastructure role
+
+# 🚀 Future Improvements
+
+Possible future extensions include:
+
+* Adding additional domain clients
+* Creating multiple departments and OUs
+* Expanding Group Policy configurations
+* Implementing more advanced file-server permissions
+* Adding monitoring
+* Implementing Windows Server backup scenarios
+* Adding additional networking scenarios
+* Practicing more advanced Active Directory administration
+
+# 💼 Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+* Windows Server Administration
+* Active Directory
+* DNS
+* DHCP
+* Group Policy
+* User & Group Management
+* Organizational Units
+* File Server Administration
+* NTFS Permissions
+* Share Permissions
+* Least Privilege
+* Domain Join
+* Network Troubleshooting
+* IT Support Troubleshooting
+* VirtualBox
+
+# 📌 Project Status
+
+### Completed ✅
+
+This lab was built as a hands-on learning and portfolio project to demonstrate practical Windows infrastructure, Active Directory administration, networking, security, and troubleshooting skills.
+
+# Author
+
+Yasser Obaid
+
+Computer Engineering Graduate | IT Support | Infrastructure | Networking
+
+GitHub: Yasser-Obaid
