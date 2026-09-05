@@ -7,21 +7,21 @@ The project was built from scratch in a virtualized environment using VirtualBox
 # Project Overview
 This project was created to develop practical skills in:
 
-*Windows Server Administration
-*Active Directory Domain Services (AD DS)
-*Domain Controller Management
-*DNS Administration
-*DHCP Configuration
-*User and Group Management
-*Organizational Units (OUs)
-*Group Policy (GPO)
-*File Server and Shared Folders
-*NTFS and Share Permissions
-*Least Privilege
-*Windows Domain Join
-*Software Deployment
-*Network Troubleshooting
-*IT Support Troubleshooting
-*Backup and Recovery Fundamentals
+* Windows Server Administration
+* Active Directory Domain Services (AD DS)
+* Domain Controller Management
+* DNS Administration
+* DHCP Configuration
+* User and Group Management
+* Organizational Units (OUs)
+* Group Policy (GPO)
+* File Server and Shared Folders
+* NTFS and Share Permissions
+* Least Privilege
+* Windows Domain Join
+* Software Deployment
+* Network Troubleshooting
+* IT Support Troubleshooting
+* Backup and Recovery Fundamentals
 
 The main objective was not only to configure the environment, but also to troubleshoot problems that occurred during implementation and understand how the different infrastructure services interact.
