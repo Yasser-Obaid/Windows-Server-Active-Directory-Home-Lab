@@ -1,6 +1,6 @@
 # Windows Server Active Directory Home Lab
 
-A hands-on IT Infrastructure and Windows Server administration lab built to simulate a small enterprise environment using Windows Server, Active Directory, DNS, DHCP, Group Policy, File Services, and Windows 10 Pro.
+A hands-on IT Infrastructure and Windows Server administration lab built to simulate a small enterprise environment using Windows Server, Active Directory, DNS, DHCP, Group Policy, File Services, and Windows 11 Pro.
 
 The project was built from scratch in a virtualized environment using VirtualBox, with a Windows client connected to the Active Directory domain.
 
@@ -27,3 +27,5 @@ This project was created to develop practical skills in:
 The main objective was not only to configure the environment, but also to troubleshoot problems that occurred during implementation and understand how the different infrastructure services interact.
 
 # 🏗️ Lab Architecture
+
+┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ │ │ Domain: lab.local │ ┌────────────▼────────────┐ │ Windows 11 Pro │ │ Client │ │ │ │ Domain Joined │ └──────────────────────────┘
