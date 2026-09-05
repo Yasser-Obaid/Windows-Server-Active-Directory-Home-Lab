@@ -168,9 +168,9 @@ A file-sharing environment was configured to practice Windows access control.
 * Applied least-privilege principles
 
 ### Permission Model
-```
-User │ ▼ Security Group │ ▼ Share Permissions │ ▼ NTFS Permissions │ ▼ Effective Access
-```
+
+**User → Security Group → Share Permissions → NTFS Permissions → Effective Access**
+
 This provided practical experience with the difference between Share Permissions and NTFS Permissions.
 
 # 📦 Software Deployment
@@ -336,9 +336,22 @@ Screenshots documenting the lab configuration are organized into the following c
 These screenshots demonstrate the actual configuration and successful testing of the environment.
 
 # 📂 Project Structure
-```
-Windows-Server-Active-Directory-Home-Lab/ │ ├── README.md │ ├── docs/ │ ├── network-diagram.png │ ├── lab-overview.md │ └── troubleshooting.md │ ├── screenshots/ │ ├── active-directory/ │ ├── dns/ │ ├── dhcp/ │ ├── group-policy/ │ ├── file-server/ │ └── troubleshooting/ │ └── .gitignore
-```
+
+The repository is organized into the following sections:
+
+- `README.md` — Main project documentation
+- `docs/` — Project documentation and network diagram
+- `docs/network-diagram.png` — Lab network architecture
+- `docs/lab-overview.md` — Lab configuration overview
+- `docs/troubleshooting.md` — Troubleshooting scenarios and solutions
+- `screenshots/` — Screenshots documenting the lab
+- `screenshots/active-directory/` — Active Directory configuration
+- `screenshots/dns/` — DNS configuration
+- `screenshots/dhcp/` — DHCP configuration
+- `screenshots/group-policy/` — Group Policy configuration
+- `screenshots/file-server/` — File Server and permissions
+- `screenshots/troubleshooting/` — Troubleshooting evidence
+- `.gitignore` — Files and folders excluded from Git
 
 # 🎯 Project Goals
 
