@@ -7,7 +7,7 @@ The project was built from scratch in a virtualized environment using VirtualBox
 # 📌 Project Overview
 This project was created to develop practical skills in:
 
-* Windows Server Administration
+	* Windows Server Administration
 * Active Directory Domain Services (AD DS)
 * Domain Controller Management
 * DNS Administration
@@ -51,14 +51,14 @@ The main objective was not only to configure the environment, but also to troubl
 IP addresses shown above are from the lab environment and are used for documentation purposes only.
 
 # 🔧 Technologies & Tools
+
 * Windows Server 2022
 * Windows 11 Pro
 
   # Infrastructure Services
   * Active Directory Domain Services (AD DS)
-* DNS
-* DHCP
-* Group Policy
-* Windows File Services
-	
+  * DNS
+  * DHCP
+  * Group Policy
+  * Windows File Services
 
