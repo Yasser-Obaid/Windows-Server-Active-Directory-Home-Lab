@@ -118,6 +118,32 @@ The lab.local Active Directory environment was structured to simulate a basic or
 * Added users to groups
 * Tested domain authentication
 * Tested standard domain-user login
+  
+# Example Structure
+```
+
+lab.local │ ├── Builtin ├── Computers ├── Domain Controllers ├── Users ├── ForeignSecurityPrincipals ├── Managed Service Accounts │ └── IT │ └── IT-Users
+```
+A dedicated IT-Support security group was also created and used for access management.
+
+# 🔐 Group Policy
+
+Group Policy was used to simulate centralized Windows administration.
+
+# Configured / Tested
+
+* Password Policy
+* Account Lockout Policy
+* User and computer policy management
+* Group Policy application
+* gpupdate /force
+* Domain policy troubleshooting
+
+The lab also included testing situations where Group Policy could not communicate correctly with the Domain Controller.
+
+# 🔑 Password & Account Security
+The environment was used to practice common Active Directory account-management tasks.
+
 
 
 
