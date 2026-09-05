@@ -130,7 +130,7 @@ A dedicated IT-Support security group was also created and used for access manag
 
 Group Policy was used to simulate centralized Windows administration.
 
-#### Configured / Tested
+### Configured / Tested
 
 * Password Policy
 * Account Lockout Policy
