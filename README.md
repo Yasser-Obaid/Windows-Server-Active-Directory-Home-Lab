@@ -63,8 +63,8 @@ IP addresses shown above are from the lab environment and are used for documenta
   * Windows 11 Pro
 
   ### Infrastructure Services
-  - Active Directory Domain Services (AD DS)
-  - DNS
+  * Active Directory Domain Services (AD DS)
+  * DNS
   * DHCP
   * Group Policy
   * Windows File Services
