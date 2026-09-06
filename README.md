@@ -196,7 +196,7 @@ DNS was an important component of the lab because Active Directory relies heavil
 
 Example:
 
-nslookup DC01.lab.local
+`nslookup DC01.lab.local`
 
 The client successfully resolved the Domain Controller through DNS.
 
@@ -215,13 +215,13 @@ Windows Server DHCP was configured to automatically provide network configuratio
 
 One of the real troubleshooting scenarios involved clients receiving:
 
-169.254.x.x
+`169.254.x.x`
 
 This APIPA address indicated that the client was not receiving a valid DHCP lease.
 
 # 🔗 Domain Join
 
-The Windows 10 Pro client was successfully joined to:
+The Windows 11 Pro client was successfully joined to:
 
 lab.local
 
