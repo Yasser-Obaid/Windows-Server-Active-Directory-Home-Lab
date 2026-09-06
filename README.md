@@ -29,6 +29,8 @@ The main objective was not only to configure the environment, but also to troubl
 
 # 🏗️ Lab Architecture
 
+<img width="1137" height="487" alt="Lab Architecture" src="https://github.com/user-attachments/assets/e7d139bf-bd74-4079-a2f5-28ed8996e2d4" />
+
 ```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ 
 ```
 
