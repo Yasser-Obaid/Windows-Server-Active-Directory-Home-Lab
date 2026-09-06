@@ -28,7 +28,17 @@ This project was created to develop practical skills in:
 The main objective was not only to configure the environment, but also to troubleshoot problems that occurred during implementation and understand how the different infrastructure services interact.
 
 # 🏗️ Lab Architecture
+```mermaid
+flowchart LR
+    DC["Windows Server 2022<br/>DC01<br/><br/>Active Directory<br/>DNS<br/>DHCP<br/>Group Policy<br/>File Services"]
 
+    NET["VirtualBox Network<br/><br/>lab.local"]
+
+    CLIENT["Windows 11 Pro<br/>Domain-Joined Client"]
+
+    DC <--> NET
+    NET <--> CLIENT
+```
 <img width="1137" height="487" alt="Lab Architecture" src="https://github.com/user-attachments/assets/e7d139bf-bd74-4079-a2f5-28ed8996e2d4" />
 
 ### Core Environment
