@@ -262,17 +262,17 @@ along with Windows administrative tools and network adapter configuration.
 
 The final environment was tested using:
 
-- `nltest /dsgetdc:lab.local`
+`nltest /dsgetdc:lab.local`
 
 and:
 
-nltest /sc_verify:lab.local
+`nltest /sc_verify:lab.local`
 
 These tests were used to verify that the client could locate the Domain Controller and that the domain secure channel was functioning correctly.
 
 DNS resolution was also tested using:
 
-nslookup DC01.lab.local
+`nslookup DC01.lab.local`
 
 # 💾 Backup & Recovery Fundamentals
 
