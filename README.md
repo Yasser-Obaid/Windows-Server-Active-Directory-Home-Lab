@@ -177,6 +177,9 @@ This provided practical experience with the difference between Share Permissions
 Software deployment through Group Policy was also practiced.
 
 A Windows Installer package (.msi) was deployed using:
+
+**Group Policy → Computer Configuration → Software Settings → Software Installation → Assigned MSI Package**
+
 ```
 Group Policy ↓ Computer Configuration ↓ Software Settings ↓ Software Installation ↓ Assigned MSI Package
 ```
