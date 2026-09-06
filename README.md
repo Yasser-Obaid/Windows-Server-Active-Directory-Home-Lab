@@ -180,9 +180,6 @@ A Windows Installer package (.msi) was deployed using:
 
 **Group Policy → Computer Configuration → Software Settings → Software Installation → Assigned MSI Package**
 
-```
-Group Policy ↓ Computer Configuration ↓ Software Settings ↓ Software Installation ↓ Assigned MSI Package
-```
 The deployment was tested on the domain client after restarting the computer.
 
 # 🌐 DNS Configuration & Troubleshooting
@@ -229,9 +226,8 @@ The Windows 10 Pro client was successfully joined to:
 lab.local
 
 The final authentication flow was:
-```
-Windows 11 Pro │ ▼ Network Connectivity │ ▼ DNS │ ▼ Domain Controller │ ▼ Active Directory │ ▼ Domain User Authentication
-```
+
+**Windows 11 Pro → Network Connectivity → DNS → Domain Controller → Active Directory → Domain User Authentication**
 
 The client was successfully authenticated using a domain user account.
 
