@@ -39,8 +39,6 @@ flowchart LR
     DC <--> NET
     NET <--> CLIENT
 ```
-<img width="1137" height="487" alt="Lab Architecture" src="https://github.com/user-attachments/assets/e7d139bf-bd74-4079-a2f5-28ed8996e2d4" />
-
 ### Core Environment
 
 | Component | Configuration |
@@ -129,9 +127,18 @@ The lab.local Active Directory environment was structured to simulate a basic or
   
 ### Example Structure
 
-<img width="1139" height="341" alt="Exampe Structure" src="https://github.com/user-attachments/assets/3fccd915-98e7-4b50-a161-4513ec40350d" />
+```mermaid
+flowchart TD
+    DOMAIN["lab.local"]
 
-A dedicated IT-Support security group was also created and used for access management.
+    DOMAIN --> IT["IT OU"]
+    IT --> USERS["IT-Users OU"]
+    USERS --> YASSER["Yasser<br/>Domain User"]
+
+    DOMAIN --> GROUP["IT-Support<br/>Security Group"]
+```
+
+A dedicated **IT-Support** security group was also created and used for access management.
 
 # 🔐 Group Policy
 
@@ -181,11 +188,26 @@ A file-sharing environment was configured to practice Windows access control.
 This provided practical experience with the difference between Share Permissions and NTFS Permissions.
 
 # 📦 Software Deployment
+
 Software deployment through Group Policy was also practiced.
 
-A Windows Installer package (.msi) was deployed using:
+```mermaid
+flowchart LR
+    GPO["Group Policy"]
+    CC["Computer Configuration"]
+    SS["Software Settings"]
+    SI["Software Installation"]
+    MSI["Assigned MSI Package"]
+    CLIENT["Domain Client"]
+    INSTALL["Software Installed"]
 
-**Group Policy → Computer Configuration → Software Settings → Software Installation → Assigned MSI Package**
+    GPO --> CC
+    CC --> SS
+    SS --> SI
+    SI --> MSI
+    MSI --> CLIENT
+    CLIENT --> INSTALL
+```
 
 The deployment was tested on the domain client after restarting the computer.
 
@@ -230,11 +252,23 @@ This APIPA address indicated that the client was not receiving a valid DHCP leas
 
 The Windows 11 Pro client was successfully joined to:
 
-lab.local
+**lab.local**
 
-The final authentication flow was:
+```mermaid
+flowchart LR
+    CLIENT["Windows 11 Pro"]
+    NETWORK["Network Connectivity"]
+    DNS["DNS<br/>lab.local"]
+    DC["DC01<br/>Domain Controller"]
+    AD["Active Directory"]
+    AUTH["Domain User<br/>Authentication"]
 
-**Windows 11 Pro → Network Connectivity → DNS → Domain Controller → Active Directory → Domain User Authentication**
+    CLIENT --> NETWORK
+    NETWORK --> DNS
+    DNS --> DC
+    DC --> AD
+    AD --> AUTH
+```
 
 The client was successfully authenticated using a domain user account.
 
