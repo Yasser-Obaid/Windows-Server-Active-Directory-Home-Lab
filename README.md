@@ -31,11 +31,7 @@ The main objective was not only to configure the environment, but also to troubl
 
 <img width="1137" height="487" alt="Lab Architecture" src="https://github.com/user-attachments/assets/e7d139bf-bd74-4079-a2f5-28ed8996e2d4" />
 
-```┌─────────────────────────┐ │ Windows Server │ │ DC01 │ │ │ │ Active Directory │ │ DNS │ │ DHCP │ │ Group Policy │ │ File Services │ └────────────┬────────────┘ 
-```
-
 ### Core Environment
-
 
 | Component | Configuration |
 | :--- | :--- |
@@ -122,10 +118,9 @@ The lab.local Active Directory environment was structured to simulate a basic or
 * Tested standard domain-user login
   
 ### Example Structure
-```
 
-lab.local │ ├── Builtin ├── Computers ├── Domain Controllers ├── Users ├── ForeignSecurityPrincipals ├── Managed Service Accounts │ └── IT │ └── IT-Users
-```
+<img width="1139" height="341" alt="Exampe Structure" src="https://github.com/user-attachments/assets/3fccd915-98e7-4b50-a161-4513ec40350d" />
+
 A dedicated IT-Support security group was also created and used for access management.
 
 # 🔐 Group Policy
