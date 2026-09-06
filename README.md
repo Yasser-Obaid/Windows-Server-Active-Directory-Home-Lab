@@ -370,8 +370,7 @@ These screenshots demonstrate the actual configuration and successful testing of
 The repository is organized into the following sections:
 
 - `README.md` — Main project documentation
-- `docs/` — Project documentation and network diagram
-- `docs/network-diagram.png` — Lab network architecture
+- `docs/` — Project documentation
 - `docs/lab-overview.md` — Lab configuration overview
 - `docs/troubleshooting.md` — Troubleshooting scenarios and solutions
 - `screenshots/` — Screenshots documenting the lab
@@ -382,7 +381,6 @@ The repository is organized into the following sections:
 - `screenshots/file-server/` — File Server and permissions
 - `screenshots/troubleshooting/` — Troubleshooting evidence
 - `.gitignore` — Files and folders excluded from Git
-
 # 🎯 Project Goals
 
 The main goals of this project were to:
