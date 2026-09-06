@@ -236,7 +236,7 @@ The client was successfully authenticated using a domain user account.
 
 One of the most valuable parts of the project was troubleshooting real problems instead of only following configuration steps.
 
-###Issues Encountered
+### Issues Encountered
 * Virtual machines stopping unexpectedly
 * Host resource / VM execution problems
 * DHCP clients receiving 169.254.x.x APIPA addresses
@@ -250,11 +250,11 @@ One of the most valuable parts of the project was troubleshooting real problems 
 
 These issues were investigated using tools such as:
 
-ipconfig
-ping
-nslookup
-nltest
-gpupdate /force
+* `ipconfig`
+* `ping`
+* `nslookup`
+* `nltest`
+* `gpupdate /force`
 
 along with Windows administrative tools and network adapter configuration.
 
