@@ -301,17 +301,7 @@ An incorrectly configured DHCP environment can result in APIPA addresses and los
 
 Instead of changing random settings, I learned to isolate the problem by checking:
 
-IP Configuration
-      ↓
-Network Connectivity
-      ↓
-DNS Resolution
-      ↓
-Domain Controller Connectivity
-      ↓
-Authentication
-      ↓
-Group Policy
+**IP Configuration → Network Connectivity → DNS Resolution → Domain Controller Connectivity → Authentication → Group Policy**
 
 ### 4. Permissions should follow Least Privilege
 
