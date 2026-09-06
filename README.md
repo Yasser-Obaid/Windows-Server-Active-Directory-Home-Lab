@@ -262,7 +262,7 @@ along with Windows administrative tools and network adapter configuration.
 
 The final environment was tested using:
 
-nltest /dsgetdc:lab.local
+- `nltest /dsgetdc:lab.local`
 
 and:
 
