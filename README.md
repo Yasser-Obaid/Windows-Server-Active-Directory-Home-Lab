@@ -355,15 +355,46 @@ The project helped me develop a troubleshooting mindset based on eliminating pos
 # 📸 Screenshots
 
 Screenshots documenting the lab configuration are organized into the following categories:
-
+### Active Directory
 #### Organizational Units
 ![OU Structure](Screenshots/ou-structure.png)
+
+#### Users and Groups
+![OU Structure](screenshots/users-and-groups.png)
+
+#### Active Directory Overview
+![Active Directory Overview](screenshots/active-directory/active-directory-overview.png)
 - **Active Directory** — Users, Groups, OUs, and domain configuration
+
+- 
 - **DNS** — DNS zones and name resolution
+### DNS
+#### DNS Manager
+![OU Structure](screenshots/dns-manager.png)
+
 - **DHCP** — DHCP configuration and IP address assignment
+### DHCP
+#### DHCP Scope
+![OU Structure](screenshots/dhcp-scope.png)
+#### DHCP Address Leases
+![OU Structure](screenshots/dhcp-leases.png)
+
 - **Group Policy** — GPO configuration and policy testing
+### Group Policy
+#### Group Policy Objects
+![OU Structure](screenshots/group-policy-objects.png)
+#### GPO Software Deployment
+![OU Structure](screenshots/gpo-software-deployment.png)
+
 - **File Server** — Shared folders and permissions
+### File Server
+#### Shared Folder
+![OU Structure](screenshots/shared-folder.png)
+
 - **Troubleshooting** — Network, DNS, DHCP, domain connectivity, and troubleshooting tests
+### Troubleshooting
+#### IP Configuration
+![OU Structure](screenshots/ipconfig.png)
 
 These screenshots demonstrate the actual configuration and successful testing of the environment.
 
