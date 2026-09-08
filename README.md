@@ -363,7 +363,7 @@ Screenshots documenting the lab configuration are organized into the following c
 ![OU Structure](screenshots/users-and-groups.png)
 
 #### Active Directory Overview
-![Active Directory Overview](screenshots/active-directory/active-directory-overview.png)
+![OU Structure](screenshots/active-directory-overview.png)
 - **Active Directory** — Users, Groups, OUs, and domain configuration
 
 - 
