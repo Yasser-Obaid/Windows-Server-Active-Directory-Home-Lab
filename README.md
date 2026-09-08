@@ -393,9 +393,6 @@ These screenshots demonstrate the actual configuration and successful testing of
 The repository is organized into the following sections:
 
 - `README.md` — Main project documentation
-- `docs/` — Project documentation
-- `docs/lab-overview.md` — Lab configuration overview
-- `docs/troubleshooting.md` — Troubleshooting scenarios and solutions
 - `screenshots/` — Screenshots documenting the lab
 - `screenshots/active-directory/` — Active Directory configuration
 - `screenshots/dns/` — DNS configuration
@@ -458,7 +455,7 @@ This lab was built as a hands-on learning and portfolio project to demonstrate p
 
 # Author
 
-Yasser Obaid
+**Yasser Obaid**
 
 Computer Engineering Graduate | IT Support | Infrastructure | Networking
 
