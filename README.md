@@ -363,38 +363,38 @@ Screenshots documenting the lab configuration are organized into the following c
 ![OU Structure](Screenshots/users-and-groups.png)
 
 #### Active Directory Overview
-![OU Structure](screenshots/active-directory-overview.png)
+![OU Structure](Screenshots/active-directory-overview.png)
 - **Active Directory** — Users, Groups, OUs, and domain configuration
 
 - 
 - **DNS** — DNS zones and name resolution
 ### DNS
 #### DNS Manager
-![OU Structure](screenshots/dns-manager.png)
+![OU Structure](Screenshots/dns-manager.png)
 
 - **DHCP** — DHCP configuration and IP address assignment
 ### DHCP
 #### DHCP Scope
-![OU Structure](screenshots/dhcp-scope.png)
+![OU Structure](Screenshots/dhcp-scope.png)
 #### DHCP Address Leases
-![OU Structure](screenshots/dhcp-leases.png)
+![OU Structure](Screenshots/dhcp-leases.png)
 
 - **Group Policy** — GPO configuration and policy testing
 ### Group Policy
 #### Group Policy Objects
-![OU Structure](screenshots/group-policy-objects.png)
+![OU Structure](Screenshots/group-policy-objects.png)
 #### GPO Software Deployment
-![OU Structure](screenshots/gpo-software-deployment.png)
+![OU Structure](Screenshots/gpo-software-deployment.png)
 
 - **File Server** — Shared folders and permissions
 ### File Server
 #### Shared Folder
-![OU Structure](screenshots/shared-folder.png)
+![OU Structure](Screenshots/shared-folder.png)
 
 - **Troubleshooting** — Network, DNS, DHCP, domain connectivity, and troubleshooting tests
 ### Troubleshooting
 #### IP Configuration
-![OU Structure](screenshots/ipconfig.png)
+![OU Structure](Screenshots/ipconfig.png)
 
 These screenshots demonstrate the actual configuration and successful testing of the environment.
 
