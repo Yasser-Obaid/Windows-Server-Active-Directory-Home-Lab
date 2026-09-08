@@ -357,11 +357,7 @@ The project helped me develop a troubleshooting mindset based on eliminating pos
 Screenshots documenting the lab configuration are organized into the following categories:
 
 #### Organizational Units
-![Active Directory OU Structure](screenshots/active-directory/ou-structure.png)
-
-![وصف الصورة](screenshots/image.png)
-
-
+![OU Structure](Screenshots/ou-structure.png)
 - **Active Directory** — Users, Groups, OUs, and domain configuration
 - **DNS** — DNS zones and name resolution
 - **DHCP** — DHCP configuration and IP address assignment
