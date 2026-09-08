@@ -360,7 +360,7 @@ Screenshots documenting the lab configuration are organized into the following c
 ![OU Structure](Screenshots/ou-structure.png)
 
 #### Users and Groups
-![OU Structure](screenshots/users-and-groups.png)
+![OU Structure](Screenshots/users-and-groups.png)
 
 #### Active Directory Overview
 ![OU Structure](screenshots/active-directory-overview.png)
